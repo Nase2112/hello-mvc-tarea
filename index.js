@@ -23,10 +23,9 @@ mongoose
   .then(() => {
     console.log(`DB connected @ ${db}`);
   })
-  .catch(err => console.error(`Connection error ${err}`));
+.catch(err => console.error(`Connection error ${err}`));
 
 // listen
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
-
